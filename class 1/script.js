@@ -153,12 +153,12 @@
 
 // 6. Ternary operator
 
-    let age = 18;
+    // let age = 18;
 
-    const ans = (age >= 18) ? "Eligible for voting" : "Not eligible";
+    // const ans = (age >= 18) ? "Eligible for voting" : "Not eligible";
 
-    console.log(ans);
+    // console.log(ans);
 
 // 7. Type operator
 
-    console.log(age , typeof age);
+    // console.log(age , typeof age);
