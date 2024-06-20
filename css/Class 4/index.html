@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .unlist {
+        list-style-type: georgian;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+      }
+
+      .header {
+        color: red;
+      }
+
+      .header:hover {
+        color: black;
+        background: yellow;
+      }
+
+      .header1{
+        color: blue;
+        background-color: yellow;
+      }
+
+      .header1 ~ p{
+        background-color: green;
+      }
+
+      .header2{
+        color: green;
+      }
+      .header3{
+        color: yellow;
+      }
+
+      .header4{
+        font-size: large;
+      }
+
+      /* CSS - Combinators */
+
+      /* Anchestor combinator */
+      .unlist > .two{
+        color: red;
+        font-size: larger;
+      }
+
+      .unlist button {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="unlist">
+      <li>One</li>
+      <li class="two">Two
+
+        <button>click</button>
+      </li>
+      <li>Three</li>
+      <li>Four</li>
+      <li>Five</li>
+    </ul>
+
+    <ol type="A">
+      <li>One</li>
+      <li class="two">Two <button>click</button></li>
+      <li>Three</li>
+      <li>Four</li>
+      <li>Five</li>
+    </ol>
+
+    <table>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>age</th>
+          <th>mobile</th>
+          <th>email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ram</td>
+          <td>23</td>
+          <td>98765432</td>
+          <td>ram@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Ram</td>
+          <td>23</td>
+          <td>98765432</td>
+          <td>ram@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Ram</td>
+          <td>23</td>
+          <td>98765432</td>
+          <td>ram@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Ram</td>
+          <td>23</td>
+          <td>98765432</td>
+          <td>ram@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- <h1 class="header">Heading</h1> -->
+
+    <p class="header1">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minus
+      consectetur aut rem magnam laboriosam eum a labore perspiciatis vel,
+      facilis odit cumque totam expedita officiis nihil commodi reiciendis et!
+    </p>
+    <p class="header2">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minus
+      consectetur aut rem magnam laboriosam eum a labore perspiciatis vel,
+      facilis odit cumque totam expedita officiis nihil commodi reiciendis et!
+    </p>
+    <p class="header3">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minus
+      consectetur aut rem magnam laboriosam eum a labore perspiciatis vel,
+      facilis odit cumque totam expedita officiis nihil commodi reiciendis et!
+    </p>
+    <p class="header4">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minus
+      consectetur aut rem magnam laboriosam eum a labore perspiciatis vel,
+      facilis odit cumque totam expedita officiis nihil commodi reiciendis et!
+    </p>
+    <p class="header5">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minus
+      consectetur aut rem magnam laboriosam eum a labore perspiciatis vel,
+      facilis odit cumque totam expedita officiis nihil commodi reiciendis et!
+    </p>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+
+    border: 5px solid black;
+}
+
+.left-section{
+    border: 5px solid black;
+    height: inherit;
+    width: 20%;
+}
+
+.right-section{
+    border: 5px solid black;
+    height: inherit;
+    width: 80%;
+}

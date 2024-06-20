@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+      .parent {
+        border: 5px solid black;
+        height: 600px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 30px;
+        
+        
+      }
+
+      .child {
+        border: 1px solid black;
+        width: 100px;
+        height: 100px;
+        color: #ffffff;
+        font-size: 3em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .child1 {
+        background-color: red;
+      }
+      .child2 {
+        background: #000;
+      }
+      .child3 {
+        background: blue;
+        align-self: center;
+      }
+      .child4 {
+        background: yellow;
+      }
+      .child5 {
+        background: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child child1">1</div>
+      <div class="child child2">2</div>
+      <div class="child child3">3</div>
+      <div class="child child4">4</div>
+      <div class="child child4">5</div>
+    </div>
+  </body>
+</html>
+
+<!-- Flexbox -->
